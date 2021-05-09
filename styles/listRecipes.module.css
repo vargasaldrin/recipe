@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  border: solid 2px black;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-bottom: 100px;
+}
+
+.header {
+  font-size: 1.75rem;
+  text-align: left;
+}
+
+.image {
+  border-radius: 15px;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 15px;
+  border: solid 2px black;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  border-color: blue;
+  cursor: pointer;
+  color: blue;
+}
+
+.row {
+  height: 175px;
+}

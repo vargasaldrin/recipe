@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import { APIProvider } from "../context/apiContext";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <APIProvider>
+      <Component {...pageProps} />
+    </APIProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
