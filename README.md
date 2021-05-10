@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the API:
 
 ````bash
-cd API
+cd api_recipe
 npm run start:api
 
 Second, run the development server:
